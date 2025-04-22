@@ -5,3 +5,66 @@
   --font-main: "Montserrat", sans-serif;
   --font-secondary: "Poppins", sans-serif;
 }
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: var(--font-main);
+  min-width: 320px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: var(--main-color);
+  align-items: center;
+}
+
+.logo {
+  width: 150px;
+  height: 65.21px;
+}
+
+.navigation-bar {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.header-btn {
+  padding: 30px;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.home-btn {
+  color: var(--secondary-color);
+}
+
+.header-navigation-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  padding: 20px 40px;
+}
+
+footer {
+  margin-top: auto;
+}
