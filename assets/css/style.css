@@ -107,7 +107,7 @@ main {
   font-weight: 500;
 }
 
-.main-header-buttons {
+.main-buttons {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -190,6 +190,8 @@ main {
   font-size: 1.5em;
   letter-spacing: 0.2px;
 }
+
+.
 
 footer {
   margin-top: auto;
