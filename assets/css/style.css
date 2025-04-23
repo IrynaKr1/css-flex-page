@@ -72,7 +72,8 @@ main {
   text-align: center;
 }
 
-.main-content-header {
+.main-content-header,
+.main-content-footer {
   background-image: url("./../img/page-background.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -141,7 +142,8 @@ main {
   font-size: 2.75em;
 }
 
-.create-account, .app-description {
+.create-account,
+.app-description {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -191,8 +193,39 @@ main {
   letter-spacing: 0.2px;
 }
 
-.
+.main-content-footer {
+  background-image: url("./../img/main-content-header.png");
+  min-height: 30vh;
+}
+
+.main-content-footer h2 {
+  font-weight: 700;
+  font-size: 2.5em;
+  letter-spacing: 0.2px;
+}
+
+.main-content-footer p {
+  font-weight: 500;
+  font-size: 1.5em;
+}
+
+.ff {
+  border-radius: 10px;
+}
 
 footer {
   margin-top: auto;
+  padding: 15px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer img {
+  width: 150px;
+  height: 65.2px;
+  object-fit: contain;
 }
