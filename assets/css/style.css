@@ -13,6 +13,7 @@
 html,
 body {
   height: 100%;
+  min-height: 500px;
   font-family: var(--font-main);
   min-width: 320px;
 }
@@ -64,6 +65,8 @@ header {
   max-width: 1200px;
   padding: 20px 40px;
 }
+
+.main-content-header
 
 footer {
   margin-top: auto;
