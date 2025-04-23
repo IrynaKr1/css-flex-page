@@ -8,6 +8,7 @@
 
 * {
   box-sizing: border-box;
+  font-size: 16px;
 }
 
 html,
@@ -39,6 +40,7 @@ header {
 .logo {
   width: 150px;
   height: 65.21px;
+  object-fit: fill;
 }
 
 .navigation-bar {
@@ -66,7 +68,67 @@ header {
   padding: 20px 40px;
 }
 
-.main-content-header
+main {
+  text-align: center;
+}
+
+.main-content-header {
+  background-image: url("./../img/page-background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: var(--main-color);
+  padding: 100px 20px;
+  line-height: 1.2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 40vh;
+  text-align: center;
+  gap: 20px;
+}
+
+.main-content-header h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.main-content-header h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 3.625rem;
+  font-weight: 700;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.main-content-header p {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.main-header-buttons {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-size: 1.3em;
+}
+
+.button {
+  padding: 16px 0;
+  color: var(--main-color);
+  border-radius: 30px;
+  width: 236px;
+}
+
+.primary {
+  background-color: var(--secondary-color);
+  margin-right: 50px;
+}
+
+.outline {
+  border: 1px var(--main-color) solid;
+}
 
 footer {
   margin-top: auto;
