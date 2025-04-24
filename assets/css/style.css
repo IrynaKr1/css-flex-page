@@ -17,6 +17,7 @@ body {
   min-height: 500px;
   font-family: var(--font-main);
   min-width: 320px;
+  width: 100%;
 }
 
 a {
@@ -40,7 +41,7 @@ header {
 .logo {
   width: 150px;
   height: 65.21px;
-  object-fit: fill;
+  object-fit: contain;
 }
 
 .navigation-bar {
@@ -91,28 +92,30 @@ main {
 }
 
 .main-content-header h2 {
-  font-size: 1.5rem;
+  font-size: 1.5em;
   font-weight: 700;
 }
 
 .main-content-header h1 {
   font-family: "Poppins", sans-serif;
-  font-size: 3.625rem;
+  font-size: 3.625em;
   font-weight: 700;
   max-width: 800px;
-  margin: 0 auto;
 }
 
 .main-content-header p {
-  font-size: 1.5rem;
+  font-size: 1.5em;
   font-weight: 500;
 }
 
 .main-buttons {
-  width: 100%;
+  width: 40%;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   font-size: 1.3em;
+  flex-wrap: wrap;
+  margin: 30px;
+  gap: 20px;
 }
 
 .button {
@@ -124,7 +127,6 @@ main {
 
 .primary {
   background-color: var(--secondary-color);
-  margin-right: 50px;
 }
 
 .outline {
@@ -147,6 +149,7 @@ main {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
   margin-top: 20px;
   padding: 50px 20px;
 }
@@ -164,8 +167,8 @@ main {
   text-align: left;
   gap: 20px;
   padding: 15px 20px;
-  width: 600px;
-  min-width: 300px;
+  max-width: 600px;
+  width: 100%;
 }
 
 .first {
