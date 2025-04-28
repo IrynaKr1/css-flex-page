@@ -97,7 +97,7 @@ main {
 }
 
 .main-content-header h1 {
-  font-family: "Poppins", sans-serif;
+  font-family: var(--font-secondary);
   font-size: 3.625rem;
   font-weight: 700;
   max-width: 800px;
@@ -139,7 +139,7 @@ main {
 }
 
 .how-it-works h2 {
-  font-family: "Poppins", sans-serif;
+  font-family: var(--font-secondary);
   font-weight: 600;
   font-size: 2.75rem;
 }
